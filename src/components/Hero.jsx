@@ -1,3 +1,5 @@
+import heroMarinatedFish from '../assets/hero-marinated-fish.jpg';
+
 export default function Hero() {
   return (
     <section id="hero" className="pt-24 pb-12 md:pt-32 md:pb-24 bg-brand-light">
@@ -17,9 +19,9 @@ export default function Hero() {
         </div>
         <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
           <img 
-            src="https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
-            alt="Ikan Goreng Bumbu Kuning" 
-            className="rounded-2xl shadow-2xl object-cover w-full max-w-md border-4 border-white"
+            src={heroMarinatedFish}
+            alt="Ikan berbumbu dengan rempah dan sayuran segar"
+            className="aspect-[4/5] w-full max-w-md rounded-2xl border-4 border-white object-cover shadow-2xl"
           />
         </div>
       </div>
