@@ -3,7 +3,7 @@ import { useState } from 'react';
 export default function OrderForm() {
   const [formData, setFormData] = useState({ name: '', fishType: 'Wader', qty: 1, message: '' });
   
-  const prices = { "Wader": 18000, "Lele": 12000, "Mujair": 10000 };
+  const prices = { "Wader": 13000, "Lele": 10000, "Mujair": 6000 };
   const totalPrice = prices[formData.fishType] * formData.qty;
 
   const handleSubmit = (e) => {
