@@ -34,9 +34,9 @@ export default function OrderForm() {
                 <label className="block text-sm font-medium text-gray-700">Jenis Ikan</label>
                 <select className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-brand focus:ring-brand p-3 border bg-gray-50"
                   onChange={(e) => setFormData({...formData, fishType: e.target.value})}>
-                  <option value="Wader">Wader 400 g (Rp 18.000)</option>
-                  <option value="Lele">Lele 4 ekor (Rp 12.000)</option>
-                  <option value="Mujair">Mujair 7 ekor (Rp 10.000)</option>
+                  <option value="Wader">Wader 500 g (Rp 13.000)</option>
+                  <option value="Lele">Lele 4 ekor (Rp 10.000)</option>
+                  <option value="Mujair">Mujair 7 ekor (Rp 6.000)</option>
                 </select>
               </div>
               <div>
