@@ -1,8 +1,8 @@
 export default function Products() {
   const products = [
-    { name: "Wader Bumbu Kuning", desc: "Satu kotak penuh (400 g), gurih dan renyah.", price: 18000, img: "https://images.unsplash.com/photo-1627308595229-7830f5c90683?w=300" },
-    { name: "Lele Bumbu Kuning", desc: "Isi 4 ekor, daging lembut dengan bumbu meresap.", price: 12000, img: "https://images.unsplash.com/photo-1615486171448-4fd32cb2a013?w=300" },
-    { name: "Mujair Bumbu Kuning", desc: "Isi 7 ekor, ukuran pas dengan rasa otentik.", price: 10000, img: "https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=300" }
+    { name: "Wader Bumbu Kuning", desc: "Satu kotak penuh (500 g), gurih dan renyah.", price: 13000, img: "https://i.pinimg.com/736x/55/fa/9e/55fa9e855163816fcd10697f8a1fbf53.jpg?w=300" },
+    { name: "Lele Bumbu Kuning", desc: "Isi 4 ekor, daging lembut dengan bumbu meresap.", price: 10000, img: "https://i.pinimg.com/736x/e9/30/9f/e9309f4639da4063bc7b56dca4c3d631.jpg?w=300" },
+    { name: "Mujair Bumbu Kuning", desc: "Isi 7 ekor, ukuran pas dengan rasa otentik.", price: 6000, img: "https://i.pinimg.com/736x/23/f2/c7/23f2c74b4132300427d8058bc25e5eec.jpg?w=300" }
   ];
 
   // Digandakan agar animasi infinity scroll tidak terputus
